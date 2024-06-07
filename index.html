@@ -5,73 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOXSA - The South Oxon Sound Archive</title>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Special Elite', monospace;
-            background: linear-gradient(to bottom, #f5f5dc, #e0d8b0 85%);
-            color: #333;
-            margin: 0;
-            padding: 10px;
-            line-height: 1.7;
-            text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-            white-space: normal;
-            position: relative;
-        }
-        body::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to bottom, transparent, transparent 23px, rgba(255, 0, 0, 0.2) 24px);
-            background-size: 100% 24px;
-            z-index: -1;
-        }
-        h1 {
-            margin: 0 0 20px 0;
-            padding: 0px;
-        }
-        p {
-            margin: 0 0 10px;;
-            padding: 0;
-        }
-        div {
-            margin:0px;
-            padding:0px;
-        }
-        .youtube-video {
-            width: 100%;
-            max-width : 800px;
-            aspect-ratio: 16 / 9;
-        }
-        .bandcamp {
-            border:0;
-            width: 100%; 
-            height: 400px;
-        }
-    </style>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <h1>SOXSA - The South Oxfordshire Sound Archive</h1>
-    <h2>Ambient Offering</h2>
-    <p>Dear Reader,</p>
-    <p>SOXSA is now offering live ambient/experimental sounds for your environment. 
-    <p>Gentle music but with an edge, conversation-friendly volume, a pleasant backdrop to other activities: browsing books, chatting over coffee,
-       enjoying visual arts. Think of a sixties coffee bar with a jazz combo playing vibraphone grooves,
-       and turn the dial to 2024.
-    </p>
+
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="ambient.html">Ambient Live</a>
+    </div>
+
+    <h2>Home</h2>
+    
+    <p>Hello Everyone,</p>
+    <p>Welcome to the SOXSA website!</p>
+    <p>Here's a little of our latest recording.</p>
     <p>Sincerely,<br>Gilbert Jones</p>
 
+    <iframe style="border: 0; width: 400px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=1385328169/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://soxsa.bandcamp.com/album/a-view-from-a-bridge-1956-59">A View from a Bridge 1956-59 by South Oxon Sound Archive</a></iframe>
+
+    <h2>Contact</h2>
     <p>DM us at <a href="https://www.instagram.com/soxsa_lab/">instagram.com/soxsa_lab</a></p>
-    <p>Or email <a href="mailto:soxsa.lab@gmail.com">soxsa.lab@gmail.com</a></p>
+    <p>Or email <a href="mailto:soxsa.lab@gmail.com">soxsa.lab@gmail.com</p>
 
-    <iframe class="bandcamp"  src="https://bandcamp.com/EmbeddedPlayer/album=2389762927/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://soxsa.bandcamp.com/album/modular-jazz-volume-1">Modular Jazz Volume 1 by South Oxon Sound Archive</a></iframe>
-
-    <iframe class="youtube-video" src="https://www.youtube.com/embed/21GYYmTKAwE" title="Resonance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe class="bandcamp"  src="https://bandcamp.com/EmbeddedPlayer/album=3144956004/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://soxsa.bandcamp.com/album/five-platonic-solids">Five Platonic Solids by South Oxon Sound Archive</a></iframe>
-
-    <iframe class="youtube-video" src="https://www.youtube.com/embed/yLKvyskSlto" title="SOXSA at Reading EMOM April 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>
